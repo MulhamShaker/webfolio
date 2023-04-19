@@ -31,3 +31,5 @@ body {
 .prefix-xs {
 @apply grid-cols-1 text-center text-xl inline
 }
+
+
