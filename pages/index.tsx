@@ -11,22 +11,22 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex container px-5 md:px-20 lg:px-48 xl:px-48 2xl:px-48 w-full h-auto max-w-full bg-slate-900 text-xl text-sky-400/50 align-middle pt-12">
-        <div className="flex-1 p-4 w-full h-auto max-w-full">
+      <div className=" grid md:grid-cols-2 sm:grid-cols-1 container md:px-20 lg:px-48 xl:px-48 2xl:px-48 w-full h-auto max-w-full bg-slate-900 text-xl text-sky-400/50 align-middle pt-12">
+        <div className="flex-1 p-4 w-full h-auto max-w-full ">
           <h1 className="mb-4 text-4xl md:text-5xl lg:text-6xl dark:text-white font-extrabold leading-none tracking-tight text-gray-900">Hello,  <span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">i’am </span></h1>
-          <h1 className="mb-4 text-3xl md:text-5xl lg:text-6xl dark:text-white w-full h-auto max-w-full"><span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 before:content-['Mulham_Shaker'] hover:before:content-['Web_developer']"></span></h1>
-          <p className="mb-3 text-gray-500 dark:text-gray-400 w-full h-auto max-w-full">Highly motivated and very passionate FullStack Developer experience in Typescript, React js, Next js, TailwindCSS, Python, Javascript, Sass.</p>
+          <h1 className="mb-4 text-3xl md:text-5xl lg:text-6xl dark:text-white w-full h-auto max-w-full"><span className=" block text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 before:content-['Mulham_Shaker'] hover:before:content-['Web_developer']"></span></h1>
+          <p className="mb-3 text-gray-500 dark:text-gray-400 w-full h-auto max-w-full block ">Highly motivated and very passionate FullStack Developer experience in Typescript, React js, Next js, TailwindCSS, Python, Javascript, Sass.</p>
           <br></br>
           <br></br>
           <br></br>
-          <p className="mb-3 text-lg md:text-xl dark:text-gray-400 w-full h-auto max-w-full">Here are a few technologies I’ve been working with recently:</p>
+          <p className="mb-3 text-lg md:text-xl dark:text-gray-400 w-full h-auto max-w-full block ">Here are a few technologies I’ve been working with recently:</p>
           <h3 >Next js, javascript, Typescript, Sass, Python, BootStrap, Tailwind, Django </h3>
         </div>
         <div className="flex-1 p-4">
-          <img src='/images/Mulham Shaker.jpg' className="text-gray-500 dark:text-gray-400 rounded-full w-full h-auto max-w-full mb-20 transition-all duration-300 blur-sm hover:blur-none ml-auto"></img>
+          <img src='/images/Mulham Shaker.jpg' className=" text-gray-500 dark:text-gray-400 rounded-full sm:block hidden w-full h-auto max-w-full mb-20 transition-all duration-300 blur-sm hover:blur-none ml-auto"></img>
         </div>
       </div>
-      <div className="flex container w-full h-auto max-w-full px-5 md:px-20 lg:px-48 xl:px-48 2xl:px-48 bg-slate-900 text-xl text-sky-400/50">
+      <div className="flex container w-full h-auto max-w-full  md:px-20 lg:px-48 xl:px-48 2xl:px-48 bg-slate-900 text-xl text-sky-400/50">
         <div className="flex-1 p-4 w-full h-auto max-w-full">
         </div>
         <div className="flex-2 p-4 w-full h-auto max-w-full">

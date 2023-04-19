@@ -8,7 +8,7 @@ const myInfo = () => {
                 <title>My Portfolio | Contact</title>
             </Head>
 
-            <form className="container px-4 md:w-[500px] sm:w-42 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-[500px] m-15 mt-5 absolute -translate-y-1/2 -translate-x-1/2 top-2/4 left-1/2">
+            <form className="container md:w-[500px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-[500px] m-15 mt-5 absolute -translate-y-1/2 -translate-x-1/2 top-2/4 left-1/2">
                 <div className="m-6">
                     <h3 className="mb-6 sm:text-sm md:text-md">Fill The Form And I Will Response As Fast As I Could</h3>
                     <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>

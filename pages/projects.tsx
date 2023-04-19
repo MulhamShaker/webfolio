@@ -11,7 +11,7 @@ const Projects = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className=" grid grid-cols-2 container px-5 gap-6 md:px-20 lg:px-48 xl:px-48 2xl:px-48 w-full  bg-slate-900 text-xl text-sky-400/50  p-12">
+            <div className=" grid md:grid-cols-2 sm:grid-cols-1 container gap-6 md:px-20 lg:px-48 xl:px-48 2xl:px-48 w-full  bg-slate-900 text-xl text-sky-400/50  p-12">
                 <div className=" h-fit p-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
                     <img src="/images/projects/barista.jpg" alt="Barista Project" />
                     <h1 className="p-4">-Barista</h1>
@@ -27,7 +27,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 container px-5 gap-6 md:px-20 lg:px-48 xl:px-48 2xl:px-48 w-full h-auto max-w-full bg-slate-900 text-xl text-sky-400/50 align-middle p-12">
+            <div className="grid md:grid-cols-2 sm:grid-cols-1 container gap-6 md:px-20 lg:px-48 xl:px-48 2xl:px-48 w-full h-auto max-w-full bg-slate-900 text-xl text-sky-400/50 align-middle p-12">
                 <div className=" h-fit p-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <img src="/images/projects/contact-page.png" alt="Contact Form Project" />
                     <h1 className="p-4">-Contact Form</h1>

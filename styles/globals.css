@@ -26,3 +26,8 @@ body {
     rgb(var(--background-start-rgb)); */
     background-color: rgb(5, 23, 43);
 }
+
+
+.prefix-xs {
+@apply grid-cols-1 text-center text-xl inline
+}
