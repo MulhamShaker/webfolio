@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import EmailButton from './contact'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           <br></br>
           <p className="mb-3 text-lg md:text-xl dark:text-gray-400 w-full h-auto max-w-full block ">Here are a few technologies I’ve been working with recently:</p>
           <h3 >Next js, javascript, Typescript, Sass, Python, BootStrap, Tailwind, Django </h3>
+          <EmailButton/>
         </div>
         <div className="flex-1 p-4">
           <img src='/images/Mulham Shaker.jpg' className=" text-gray-500 dark:text-gray-400 rounded-full sm:block hidden w-full h-auto max-w-full mb-20 transition-all duration-300 blur-sm hover:blur-none ml-auto"></img>
@@ -30,10 +32,9 @@ export default function Home() {
         <div className="flex-1 p-4 w-full h-auto max-w-full">
         </div>
         <div className="flex-2 p-4 w-full h-auto max-w-full">
-
         </div>
       </div>
-
+      
     </>
   )
 }

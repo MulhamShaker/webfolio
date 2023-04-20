@@ -1,0 +1,57 @@
+[
+    {
+        "title" : "Note App",
+        "description" : "Simply note app add notes and save it",
+        "tech" : [ "Next js", "TypeScript", "BootStrap" ],
+        "live" : "https://note-app-inky-seven.vercel.app/",
+        "code" : "https://github.com/MulhamShaker/noteApp",
+        "thumnail" : "/images/projects/noteapp.png"
+    },
+    {
+        "title" : "AI Assistant",
+        "description" : "Artificial intelligence (AI) assistant ",
+        "tech" : [ "Python" ],
+        "code" : "https://github.com/MulhamShaker/OpenAI",
+        "live" : "",
+        "thumnail" : "/images/projects/openai.jpg"
+    },
+    {
+        "title" : "Barista Program",
+        "description" : "A barista simulation",
+        "tech" : [ "Python" ],
+        "code" : "https://github.com/MulhamShaker/PythonBarista",
+        "live" : "",
+        "thumnail" : "/images/projects/barista.jpg"
+    },
+    {
+        "title" : "PanDiv Website",
+        "description" : "Our Company Website",
+        "tech" : [ "Next js", "Bootstrap", "Sass", "TypeScript"],
+        "live" : "https://www.pandiv.com/",
+        "thumnail" : "/images/projects/pandiv.png"
+    },
+    {
+        "title" : "Contact Page",
+        "description" : "Contact E-mail Form",
+        "tech" : [ "Next js", "Tailwind","JavaScript"],
+        "live" : "https://sign-form-up.vercel.app/",
+        "code" : "https://github.com/MulhamShaker/SignUp-Form",
+        "thumnail" : "/images/projects/form.png"
+    },
+    {
+        "title" : "E-Shop",
+        "description" : "E-Commerce Shop",
+        "tech" : [ "Django", "Python", "Css","Html"],
+        "live" : "",
+        "code" : "https://github.com/MulhamShaker/E-Shop",
+        "thumnail" : "/images/projects/e-shop.png"
+    },
+    {
+        "title" : "Web-Folio",
+        "descriptio" : "My Portfolio",
+        "tech" : [ "NextJs", "TypeScripts", "Tailwind"],
+        "live" : "https://webfolio-mul.vercel.app/",
+        "code" : "https://github.com/MulhamShaker/webfolio",
+        "thumnail" : "/images/projects/web-folio.png"
+    }
+]
