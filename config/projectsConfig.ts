@@ -12,10 +12,10 @@ export const projects : ProjectTypes[] = [
     {
         title : "Note App",
         description : "Simply note app add notes and save it",
-        tech : [ "Next js", "TypeScript", "BootStrap" ],
-        live : 'https://note-app-inky-seven.vercel.app/',
-        code : 'https://github.com/MulhamShaker/noteApp',
-        thumnail : "/images/projects/noteapp.png",
+        tech : [ "Next js", "javaScript", "TailwindCSS" ],
+        live : 'https://note-app-jss.vercel.app/',
+        code : 'https://github.com/MulhamShaker/Note-App',
+        thumnail : "/images/projects/note-app.png",
         // featured : true
     },
 
