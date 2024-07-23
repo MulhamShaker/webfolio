@@ -9,25 +9,25 @@ export const navData = [ "About", "Works", "Contact" ]
 
 // project data
 export const projects : ProjectTypes[] = [
-    {
-        title : "Note App",
-        description : "Simply note app add notes and save it",
-        tech : [ "Next js", "javaScript", "TailwindCSS" ],
-        live : 'https://note-app-jss.vercel.app/',
-        code : 'https://github.com/MulhamShaker/Note-App',
-        thumnail : "/images/projects/note-app.png",
-        // featured : true
-    },
+    // {
+    //     title : "Note App",
+    //     description : "Simply note app add notes and save it",
+    //     tech : [ "Next js", "javaScript", "TailwindCSS" ],
+    //     live : 'https://note-app-jss.vercel.app/',
+    //     code : 'https://github.com/MulhamShaker/Note-App',
+    //     thumnail : "/images/projects/note-app.png",
+    //     // featured : true
+    // },
 
-    {
-        title : "AI Assistant",
-        description : "Artificial intelligence (AI) assistant ",
-        tech : [ "Python" ],
-        code : 'https://github.com/MulhamShaker/OpenAI',
-        live : '',
-        thumnail : "/images/projects/openai.jpg",
-        // featured : true
-    },
+    // {
+    //     title : "AI Assistant",
+    //     description : "Artificial intelligence (AI) assistant ",
+    //     tech : [ "Python" ],
+    //     code : 'https://github.com/MulhamShaker/OpenAI',
+    //     live : '',
+    //     thumnail : "/images/projects/openai.jpg",
+    //     // featured : true
+    // },
 
     {
         title : "Barista Program",
@@ -39,23 +39,23 @@ export const projects : ProjectTypes[] = [
         // featured : true
     },
 
-    {
-        title : "PanDiv Website",
-        description : "Our Company Website",
-        tech : [ "Next js", "Bootstrap", "Sass", "TypeScript"],
-        live : 'https://www.pandiv.com/',
-        thumnail : "/images/projects/pandiv.png",
-        featured : true
-    },
-    {
-        title : "Contact Page",
-        description : "Contact E-mail Form",
-        tech : [ "Next js", "Tailwind","JavaScript"],
-        live : 'https://sign-form-up.vercel.app/',
-        code : 'https://github.com/MulhamShaker/SignUp-Form',
-        thumnail : "/images/projects/form.png",
-        // featured : true
-    },
+    // {
+    //     title : "PanDiv Website",
+    //     description : "Our Company Website",
+    //     tech : [ "Next js", "Bootstrap", "Sass", "TypeScript"],
+    //     live : 'https://www.pandiv.com/',
+    //     thumnail : "/images/projects/pandiv.png",
+    //     featured : true
+    // },
+    // {
+    //     title : "Contact Page",
+    //     description : "Contact E-mail Form",
+    //     tech : [ "Next js", "Tailwind","JavaScript"],
+    //     live : 'https://sign-form-up.vercel.app/',
+    //     code : 'https://github.com/MulhamShaker/SignUp-Form',
+    //     thumnail : "/images/projects/form.png",
+    //     // featured : true
+    // },
     {
         title : "E-Shop",
         description : "E-Commerce Shop",
@@ -65,13 +65,13 @@ export const projects : ProjectTypes[] = [
         thumnail : "/images/projects/e-shop.png",
         // featured : true
     },
-    {
-        title : "Web-Folio",
-        description : "My Portfolio",
-        tech : [ "NextJs", "TypeScripts", "Tailwind"],
-        live : 'https://webfolio-mul.vercel.app/',
-        code : 'https://github.com/MulhamShaker/webfolio',
-        thumnail : "/images/projects/web-folio.png",
-        // featured : true
-    },
+    // {
+    //     title : "Web-Folio",
+    //     description : "My Portfolio",
+    //     tech : [ "NextJs", "TypeScripts", "Tailwind"],
+    //     live : 'https://webfolio-mul.vercel.app/',
+    //     code : 'https://github.com/MulhamShaker/webfolio',
+    //     thumnail : "/images/projects/web-folio.png",
+    //     // featured : true
+    // },
 ]
