@@ -1,13 +1,9 @@
 // import classNames from "classnames";
 import { ProjectTypes } from "./types";
 
-// whenever wee need to change default className value we will use this
-// export const cx = classNames;
 
-// nav data
 export const navData = [ "About", "Works", "Contact" ]
 
-// project data
 export const projects : ProjectTypes[] = [
     // {
     //     title : "Note App",
